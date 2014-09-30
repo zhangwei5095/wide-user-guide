@@ -1,2 +1,1 @@
-wide-user-guide
-===============
+# Wide User Guide
