@@ -4,8 +4,10 @@
 
 
 ## 工作空间
+
 Wide 的工作空间就是 Go 中的 [workspaces](https://golang.org/doc/code.html#Workspaces)，每个用户的工作空间路径可在 wide.json 中进行配置。
 
 ## 运行时
+
 用户在运行程序时进程是跑在服务器上的，所以多用户同时运行程序时最常见的问题就是资源冲突（比如网络端口），目前这个问题只能靠用户自行规避。
 
