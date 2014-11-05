@@ -9,6 +9,8 @@
 * Alt-Shift-F：格式化
 * Ctrl-L：跳转到行
 * Ctrl-E：删除当前行
+* Shift-Ctrl-Up：复制当前行到上一行
+* Shift-Ctrl-Down：复制当前行到下一行
 * Ctrl-S：保存当前编辑器文件
 * Shift-Ctrl-S：保存所有编辑器文件
 * Ctrl-Q：关闭当前编辑器
