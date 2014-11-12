@@ -4,33 +4,23 @@
 
   默认用户是 admin 用户。用户名：admin，密码：admin。
 
-* **什么是工作空间？**
-
-  工作空间是当前用户的 $GOPATH 路径指定的目录，一个用户只能有一个工作空间。 例如 admin 用户的工作空间默认路径是 {wide}/data/user_workspaces/admin/，可以在 wide.json 中配置。
-
 * **wide.json 是什么？**
 
-  wide.json 是 Wide 的配置文件，路径是 {wide}/conf/wide.json。Wide 的所有配置（例如端口、工作空间、用户帐号、用户选项等）都是保存在这个文件中的。
+  wide.json 是 Wide 的配置文件，路径是 {wide}/conf/wide.json。Wide 的所有配置（例如端口、工作空间 $GOPATH、用户帐号、用户选项等）都是保存在这个文件中的。
 
   如果 Wide 是个人使用，那么默认的配置应该可以很好的工作，不需要修改任何地方。
+
+* **什么是工作空间？**
+
+  工作空间是当前用户的 $GOPATH 路径，一个用户只能有一个工作空间。 例如 admin 用户的工作空间默认是取系统的 $GOPATH，也可以在 wide.json 中进行配置。
 
 * **Windows上构建并云时出现“Access is denied”**
 
   请“以管理员身份运行”。
 
-* **如何才能使用已有 $GOPATH？比如我的 $GOPATH 是 D:\\GoGoGo，我要如何才能使用这个目录作为 admin 用户的工作空间？**
-
-  修改 wide.json 中 admin 用户的 Workspace，将其从默认的 ````"{pwd}/data/user_workspaces/admin" ````改为  ````"D:\\GoGoGo" ```` 。
-
-  $GOPATH 是可以通过路径分隔符（Linux 下是 ````:````，Windows 下是 ````;````）配置多个路径的，但不建议您这样配置，因为多个目录会造成 $GOPATH 的混乱、构建/代码补全等功能的性能下降。
-
 * **文件树里的 Go API 目录是什么？**
 
   该目录是读取 $GOROOT/src/pkg 生成的，方便用户查看 Go API 源代码。 在该目录下是不允许新建、编辑、删除文件的。
-
-* **如何配置多用户？**
-
-  修改 wide.json 中的 ````Users```` 数组，按照默认用户的格式（用户名、密码等）添加。
 
 * **为什么代码辅助功能（自动完成/跳转到声明等）失效了？**
 

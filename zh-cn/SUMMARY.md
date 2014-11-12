@@ -4,7 +4,6 @@
 * [由来](motivation/README.md)
 * [特性](features/README.md)
 * [安装](setup/README.md)
-   * [多用户配置](setup/multiplayer_conf.md)
    * [从源代码](setup/from_source.md)
    * [Go 格式化工具](setup/gofmt_tool.md)
 * [多用户](multiplayer/README.md)
