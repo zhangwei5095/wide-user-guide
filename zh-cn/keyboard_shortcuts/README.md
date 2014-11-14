@@ -23,6 +23,7 @@
 
 ## 搜索
 
+* Shift-Alt-O：打开文件
 * Ctrl-F：搜索/查找
 * Ctrl-G：查找下一个
 * Shift-Ctrl-G：查找上一个
