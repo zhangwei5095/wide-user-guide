@@ -13,3 +13,4 @@
 * go tool：go get/install/fmt 等
 * Git 整合：常用 git 命令可视化操作
 * 项目导入/导出
+* 多主题
