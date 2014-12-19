@@ -6,7 +6,7 @@
 
 * **wide.json 是什么？**
 
-  wide.json 是 Wide 的配置文件，路径是 {wide}/conf/wide.json。Wide 的所有配置（例如端口、工作空间 $GOPATH、用户帐号、用户选项等）都是保存在这个文件中的。
+  wide.json 是 Wide 的配置文件，路径是 {wide}/conf/wide.json。Wide 的所有配置（例如服务 IP、端口、区域等）都是保存在这个文件中的。
 
   如果 Wide 是个人使用，那么默认的配置应该可以很好的工作，不需要修改任何地方。
 
