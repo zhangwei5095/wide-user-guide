@@ -8,7 +8,7 @@
 
 ## 工作空间
 
-Wide 的工作空间就是 Go 中的 [workspaces](https://golang.org/doc/code.html#Workspaces)，每个用户的工作空间路径可在 wide.json 中进行配置。
+Wide 的工作空间就是 Go 中的 [workspaces](https://golang.org/doc/code.html#Workspaces)，也就是 $GOPATH 指定的路径。
 
 ## 运行时
 
