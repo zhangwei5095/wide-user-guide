@@ -14,7 +14,7 @@
   * 极客体验
 * 目前较为流行的 Go IDE 都有一些缺陷或遗憾：
   * 文本编辑器类（vim/emacs/sublime/Atom 等）：对于新手门槛太高，搭建复杂
-  * 插件类（goclipse 等）：需要原 IDE 支持，不够专业
+  * 插件类（goclipse、IDEA 等）：需要原 IDE 支持，不够专业
   * LiteIDE：界面不够 modern :p
   * 没有团队开发体验
 * Go IDE 很少，用 Go 本身开发的 IDE 更是没有，这是一个很好的尝试
