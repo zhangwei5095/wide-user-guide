@@ -14,7 +14,7 @@
 
   工作空间是当前用户的 $GOPATH 路径，一个用户只能有一个工作空间。
 
-* **Windows上构建并云时出现“Access is denied”**
+* **Windows上构建时出现“Access is denied”**
 
   请“以管理员身份运行”。
 
