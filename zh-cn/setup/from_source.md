@@ -1,6 +1,6 @@
 # 从源代码安装
 
-1. 通过 ````git clone```` 或[下载](https://github.com/b3log/wide/archive/master.zip)获取 Wide 源码（项目地址：https://github.com/b3log/wide）
+1. 通过 ````git clone https://github.com/b3log/wide```` 或[下载](https://github.com/b3log/wide/archive/master.zip)获取 Wide 源码
 2. 获取依赖，在 Wide 源码目录下执行：
    * ````go get -u````
    * ````go get -u github.com/88250/ide_stub````
