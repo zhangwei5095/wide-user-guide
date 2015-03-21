@@ -11,4 +11,5 @@
 * [键盘快捷键](keyboard_shortcuts/README.md)
 * [国际化](i18n/README.md)
 * [FAQ](faq/README.md)
+* import_project
 
