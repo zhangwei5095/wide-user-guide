@@ -8,7 +8,7 @@
    * [Go 格式化工具](setup/gofmt_tool.md)
 * [多用户](multiplayer/README.md)
 * [导入项目](import_project/README.md)
-   * [Git Clone](import_project/git_clone.md)
+   * [Git 克隆](import_project/git_clone.md)
    * [上传 Zip](import_project/upload_zip.md)
 * [编辑器](editor/README.md)
 * [键盘快捷键](keyboard_shortcuts/README.md)
