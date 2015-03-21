@@ -7,9 +7,9 @@
    * [从源代码](setup/from_source.md)
    * [Go 格式化工具](setup/gofmt_tool.md)
 * [多用户](multiplayer/README.md)
+* import_project
 * [编辑器](editor/README.md)
 * [键盘快捷键](keyboard_shortcuts/README.md)
 * [国际化](i18n/README.md)
 * [FAQ](faq/README.md)
-* import_project
 
