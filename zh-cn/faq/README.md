@@ -24,9 +24,9 @@
 
 * **为什么代码辅助功能（自动完成/跳转到声明等）失效了？**
 
-  请确认正确安装了 gocode 和 ide_stub 工具。安装命令：
-  * ````go get -u github.com/88250/ide_stub````
-  * ````go get -u github.com/nsf/gocode````
+  请确认正确安装了 gocode 和 gotools 工具。安装命令：
+  * `go get -u github.com/visualfc/gotools`
+  * `go get -u github.com/nsf/gocode`
 
   如果安装不正确，Wide  会自动检查并通过通知窗口告知用户。另外，通知窗口还会告知用户一些其他重要信息，例如 IDE 版本更新提醒等。
 
