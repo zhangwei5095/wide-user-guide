@@ -4,6 +4,7 @@
 * [由来](motivation/README.md)
 * [特性](features/README.md)
 * [安装](setup/README.md)
+   * [安装包](setup/bin.md) 
    * [从源代码](setup/from_source.md)
    * [Docker](setup/docker.md)
    * [Go 格式化工具](setup/gofmt_tool.md)
