@@ -11,6 +11,7 @@
 * go tool：go get/install/fmt 等
 * 项目导入/导出
 * UI/编辑器多主题
+* 支持交叉编译
 * 调试：基于 gdb 的调试系统（TBD）
 * Git 整合：常用 git 命令可视化操作（TBD）
 * Shell：连接到服务器执行命令（TBD）
