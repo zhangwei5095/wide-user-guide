@@ -5,6 +5,7 @@
 * [特性](features/README.md)
 * [安装](setup/README.md)
    * [从源代码](setup/from_source.md)
+   * [Docker](setup/docker.md)
    * [Go 格式化工具](setup/gofmt_tool.md)
 * [多用户](multiplayer/README.md)
 * [导入项目](import_project/README.md)
