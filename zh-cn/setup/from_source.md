@@ -1,11 +1,5 @@
 # 从源代码安装
 
-1. 通过 ````git clone https://github.com/b3log/wide```` 或[下载](https://github.com/b3log/wide/archive/master.zip)获取 Wide 源码
-2. 获取依赖，在 Wide 源码目录下执行：
-   * ````go get -u````
-   * ````go get -u github.com/88250/ide_stub````
-   * ````go get -u github.com/nsf/gocode````
-3. 编译：在 Wide 源码目录下执行 go build
-4. 配置 {wide}/conf/wide.json（可选，默认配置应该可以工作）
-5. 运行可执行文件 wide 或 wide.exe
-
+1. [下载](https://github.com/b3log/wide/archive/master.zip) 或通过 `git clone https://github.com/b3log/wide` 获取源码
+2. 安装依赖：在源码目录下执行 `go get`，然后再执行 `go get github.com/visualfc/gotools github.com/nsf/gocode github.com/bradfitz/goimports`
+3. 编译 Wide：`go build`
